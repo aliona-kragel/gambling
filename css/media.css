@@ -56,8 +56,11 @@
   .header__logo{
     width: 10%;
   }
+  .header__controls {
+    width: 25%;
+  }
   .home-page__preview_button {
-    width: 80%;
+    width: 90%;
   }
   .home-page__banner_line img {
     width: 90px;
@@ -95,6 +98,12 @@
   }
   .header__controls {
     width: 30%;
+  }
+  .home-page__post {
+    padding: 16px 48px;
+  }
+  .home-page__post_title {
+    font-size: 18px;
   }
 }
 

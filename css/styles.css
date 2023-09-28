@@ -233,19 +233,14 @@ ul, li{
   cursor: pointer;
   scale: 1;
   z-index: 5;
-    transition: 0.3s ease-in-out ;
+  transition: 0.3s ease-in-out ;
 }
 
 .home-page__preview_button:hover{
-background-color: #9DADF2;
-}
-
-.home-page__preview_button:active{
   color: #478BF9;
   background-color: #FFFFFF;
-  transition: 0.5s ease-in-out;
+  transition: 0.3s ease-in-out;
 }
-
 
 /* home-page banner */
 
@@ -422,7 +417,6 @@ background-color: #9DADF2;
   font-size: 16px;
   line-height: 125%;
   color: #FFFFFF;
-  cursor: pointer;
 }
 
 .footer__social {
@@ -451,6 +445,7 @@ background-color: #9DADF2;
   transition: 0.3s ease-in-out;
   scale: 1;
   z-index: 2;
+  cursor: pointer;
 }
 
 .social__icon:hover{
@@ -543,8 +538,9 @@ background-color: #9DADF2;
 
 .hidden__menu ul li {
   width: 70%;
+  display: flex;
   padding: 13px 20px ;
-  transition: 0.5s ease-in-out;
+  transition: 0.2s ease-in-out;
   border: 2px solid #478BF9;
   border-radius: 28px;
 }
@@ -552,7 +548,7 @@ background-color: #9DADF2;
 .hidden__menu_button{
   width: 70%;
   padding: 13px 20px ;
-  transition: 0.3s ease-in-out;
+  transition: 0.2s ease-in-out;
   border: 2px solid #9DADF2;
   border-radius: 28px;
   background-color: #1E1231;
